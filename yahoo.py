@@ -1,5 +1,11 @@
 from selenium import webdriver
+
 import time
+
+
+
+
+
 
 driver = webdriver.Chrome(executable_path =r"C:\Users\SIDDHARTHPHUKANE\PycharmProjects\durongclass\resources\chromedriver.exe")   #keyword argument and not positional argiment
 driver.maximize_window()
